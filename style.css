@@ -1,0 +1,212 @@
+body{
+	/*font-family:Microsoft JhengHei,'Open Sans', sans-serif;*/
+	/*font-family: 'Lora' , 'CJKtc', Verdana, Geneva, sans-serif;*/
+	/* font-family: Geneva, 'CJKtc', Verdana, sans-serif; */
+	background-color: #fff;
+	word-wrap:break-word;/*依單字換行 如單字太長再直接截斷*/
+	font-size: 1rem;
+}
+
+
+a:link{
+	color: black;
+	text-decoration: none;
+}
+a:visited{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+	text-decoration: none;
+}
+a:active{
+	color: black;
+	text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: black;
+}
+
+.lanbtn{
+	font-size: 12px;
+	font-family: 'Lora', 'CJKtc', Georgia, "Times New Roman", Times, serif;
+}
+
+.shopbtn{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+
+.navfont{
+	font-size: 20px;
+}
+
+.martopsize{
+	margin-top: 70px;
+}
+
+footer{
+	background-color: #eeeeee;
+}
+
+.listyle{
+	background-color: transparent;
+	border-bottom-width: 0px!important;
+	font-size: 12px;
+	padding: 3px;
+}
+
+.infstyle{
+	font-size: 15px;
+}
+
+.searchinput{
+	background-color: transparent;
+}
+
+.rightstyle{
+	font-size: 12px;
+}
+
+
+/*最新消息news*/
+
+.bcstyle{
+	background-color: #eeeeee;
+	font-size: 12px;
+}
+
+.newslisttitle{
+	color: #727171;
+}
+
+
+/*電影資料庫moviedatabase*/
+
+.movieinf{
+	color: #727171;
+	font-size: 15px;
+}
+
+.greybg{
+	background-color: #eeeeee;
+}
+
+.poptitle{
+	font-size: 1.25rem;
+	color: black;
+}
+
+.poptitle:hover{
+	color: black!important;
+}
+
+
+
+/*節目單元program*/
+
+table {
+  border-collapse: collapse;
+  border: 0px solid #cdcdcd;
+  /*font: normal 12px arial;*/
+  text-align: center;
+  width: 100%;
+}
+td,
+th {
+  border: 0px solid #cdcdcd;
+  padding: 8px;
+}
+
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border-bottom: 5px solid white;
+    background-color: #FAFAFB;
+  }
+
+  td {
+    border: none;
+    border-bottom: 0px solid #eee;
+    position: relative;
+    padding-left: 50% !important;
+    text-align: left !important;
+  }
+
+  td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+
+  td:nth-of-type(1):before {
+    content: "播映日期";
+    color: black;
+  }
+  td:nth-of-type(2):before {
+    content: "放映地點";
+    color: black;
+  }
+  td:nth-of-type(3):before {
+    content: "播映時間";
+    color: black;
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 1199px){
+	
+}
+
+
+@media (max-width: 991px){
+	.lanbtn{
+		font-size: 14px;
+	}
+	.shopbtn{
+		border-width: 0px;
+	}
+	.navfont{
+		font-size: 16px;
+	}
+	.martopsize{
+		margin-top: 40px;
+	}
+}
+
+
+@media (max-width: 767px){
+	
+}
+
+
+@media (max-width: 575px){
+	
+}
